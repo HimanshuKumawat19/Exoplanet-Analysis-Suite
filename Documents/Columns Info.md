@@ -38,28 +38,28 @@ This is a guide to the most important columns in the `PSCompPars` dataset for ou
 
 #### 3a. Planetary Features
 
-|   |   |   |
-|---|---|---|
-|**Column Name**|**Datatype (in Pandas)**|**Easy Explanation**|
-|`pl_orbper`|`float64` (number)|**Orbital Period:** How long the planet takes to circle its star (its "year").|
-|`pl_orbsmax`|`float64` (number)|**Semi-Major Axis:** The average distance from the planet to its star.|
-|`pl_rade`|`float64` (number)|**Planet Radius:** How big the planet is. Measured in multiples of Earth's radius.|
-|`pl_masse`|`float64` (number)|**Planet Mass:** How heavy the planet is. Measured in multiples of Earth's mass.|
-|`pl_dens`|`float64` (number)|**Density:** How "puffy" (like gas) or "compact" (like rock) the planet is.|
-|`pl_orbeccen`|`float64` (number)|**Eccentricity:** How circular (`0`) or oval-shaped (`~1`) its orbit is.|
-|`pl_eqt`|`float64` (number)|**Equilibrium Temperature:** A simple guess at the planet's average temperature.|
-|`pl_insol`|`float64` (number)|**Insolation:** How much starlight/energy the planet gets from its star.|
+|                 |                          |                                                                                    |
+| --------------- | ------------------------ | ---------------------------------------------------------------------------------- |
+| **Column Name** | **Datatype (in Pandas)** | **Easy Explanation**                                                               |
+| `pl_orbper`     | `float64` (number)       | **Orbital Period:** How long the planet takes to circle its star (its "year").     |
+| `pl_orbsmax`    | `float64` (number)       | **Semi-Major Axis:** The average distance from the planet to its star.             |
+| `pl_rade`       | `float64` (number)       | **Planet Radius:** How big the planet is. Measured in multiples of Earth's radius. |
+| `pl_masse`      | `float64` (number)       | **Planet Mass:** How heavy the planet is. Measured in multiples of Earth's mass.   |
+| `pl_dens`       | `float64` (number)       | **Density:** How "puffy" (like gas) or "compact" (like rock) the planet is.        |
+| `pl_orbeccen`   | `float64` (number)       | **Eccentricity:** How circular (`0`) or oval-shaped (`~1`) its orbit is.           |
+| `pl_eqt`        | `float64` (number)       | **Equilibrium Temperature:** A simple guess at the planet's average temperature.   |
+| `pl_insol`      | `float64` (number)       | **Insolation:** How much starlight/energy the planet gets from its star.           |
 
 #### 3b. Stellar Features
 
-|   |   |   |
-|---|---|---|
-|**Column Name**|**Datatype (in Pandas)**|**Easy Explanation**|
-|`st_teff`|`float64` (number)|**Star's Temperature:** How hot the star's surface is (in Kelvin).|
-|`st_rad`|`float64` (number)|**Star's Radius:** How big the star is. Measured in multiples of our Sun's radius.|
-|`st_mass`|`float64` (number)|**Star's Mass:** How heavy the star is. Measured in multiples of our Sun's mass.|
-|`st_met`|`float64` (number)|**Star's Metallicity:** How rich the star is in "metals" (heavy elements).|
-|`st_age`|`float64` (number)|**Star's Age:** The estimated age of the star in billions of years.|
+|                 |                          |                                                                                    |
+| --------------- | ------------------------ | ---------------------------------------------------------------------------------- |
+| **Column Name** | **Datatype (in Pandas)** | **Easy Explanation**                                                               |
+| `st_teff`       | `float64` (number)       | **Star's Temperature:** How hot the star's surface is (in Kelvin).                 |
+| `st_rad`        | `float64` (number)       | **Star's Radius:** How big the star is. Measured in multiples of our Sun's radius. |
+| `st_mass`       | `float64` (number)       | **Star's Mass:** How heavy the star is. Measured in multiples of our Sun's mass.   |
+| `st_met`        | `float64` (number)       | **Star's Metallicity:** How rich the star is in "metals" (heavy elements).         |
+| `st_age`        | `float64` (number)       | **Star's Age:** The estimated age of the star in billions of years.                |
 
 #### 3c. System Features
 
